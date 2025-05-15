@@ -8,7 +8,7 @@ import 'package:image_picker/image_picker.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:pertemuan7_115/bloc/camera_event.dart';
 import 'package:pertemuan7_115/bloc/camera_state.dart';
-import 'package:pertemuan7_115/camera_page.dart';
+import 'package:pertemuan7_115/presentation/camera_page.dart';
 import 'package:pertemuan7_115/storage_helper.dart';
 
 class CameraBloc extends Bloc<CameraEvent, CameraState> {
