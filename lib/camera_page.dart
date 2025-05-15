@@ -83,7 +83,7 @@ class _CameraPageState extends State<CameraPage> {
 
   void _setZoom(double value) async {
     if (!_isZoomSupported) return;
-    _zoom - value.clamp(_minZoom, _maxZoom);
+    _zoom = value.clamp(_minZoom, _maxZoom);
     await _controller!.setZoomLevel(_zoom);
     setState(() {});
   }
