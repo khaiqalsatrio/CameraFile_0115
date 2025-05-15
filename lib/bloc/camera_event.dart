@@ -26,3 +26,9 @@ final class OpenCameraAndCapture extends CameraEvent {
   final BuildContext context;
   OpenCameraAndCapture(this.context);
 }
+
+final class DeleteImage extends CameraEvent {}
+
+final class ClearSnackbar extends CameraEvent {}
+
+final class RequestPermission extends CameraEvent {}
