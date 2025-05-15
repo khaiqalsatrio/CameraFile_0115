@@ -2,8 +2,8 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:pertemuan7_115/camera_page.dart';
-import 'package:pertemuan7_115/storage_helper.dart';
+import 'package:pertemuan_7/camera_page.dart';
+import 'package:pertemuan_7/storage_helper.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
